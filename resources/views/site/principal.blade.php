@@ -1,1 +1,5 @@
-<h1>Principal</h1>
+@extends('site.layouts.basico')
+
+@section('conteudo')
+    @include('site.layouts._partials.menu')
+@endsection
